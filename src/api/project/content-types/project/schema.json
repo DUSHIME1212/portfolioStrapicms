@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,13 +22,13 @@
       "required": true
     },
     "bannerimage": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     },
     "content": {
       "type": "richtext"
@@ -36,6 +37,10 @@
       "type": "datetime",
       "required": true,
       "default": "2024-12-15T22:00:00.000Z"
+    },
+    "link": {
+      "type": "string",
+      "required": false
     }
   }
 }
