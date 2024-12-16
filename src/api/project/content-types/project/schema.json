@@ -41,6 +41,10 @@
     "link": {
       "type": "string",
       "required": false
+    },
+    "githuburl": {
+      "type": "string",
+      "required": true
     }
   }
 }
