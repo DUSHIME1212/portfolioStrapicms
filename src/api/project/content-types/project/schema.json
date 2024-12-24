@@ -44,7 +44,20 @@
     },
     "githuburl": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "UX Research",
+        "UI Design",
+        "Websites",
+        "Coding",
+        "GraphicDesign"
+      ]
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
